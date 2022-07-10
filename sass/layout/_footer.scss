@@ -1,0 +1,48 @@
+.section-footer {
+padding-top: 60px;
+padding-bottom: 54px;
+}
+
+.footer-list {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.footer-list__link {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.footer-list__item:not(:last-child) {
+margin-right: 35px;
+}
+
+.footer-list__icon {
+fill: var(--main-site-color);
+transition: 250ms fill linear;
+
+.footer-list__link:hover & {
+fill: rgba(255, 100, 100, 0.6);
+
+}
+    
+}
+
+.footer-text {
+display: none;
+}
+
+@media screen and (min-width:860px) {
+
+.footer-list {
+margin-bottom: 26px;
+}
+
+.footer-text {
+display: block;
+text-align: center;
+}
+
+}

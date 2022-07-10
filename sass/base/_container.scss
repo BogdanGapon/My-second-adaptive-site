@@ -1,0 +1,34 @@
+.container {
+
+padding-left: 15px;
+padding-right: 15px;
+
+@media screen and (min-width:380px) {
+margin-left: auto;
+margin-right: auto;
+width: 380px;
+}
+
+
+@media screen and (min-width:860px) {
+width: 860px;
+
+}
+}
+
+.blog-container {
+padding-left: 15px;
+padding-right: 15px;
+
+ @media screen and (min-width:380px) {
+margin-left: auto;
+margin-right: auto;
+width: 380px;
+}
+
+@media screen and (min-width:740px) {
+width: 740px;
+}
+
+}
+

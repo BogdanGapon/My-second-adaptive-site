@@ -1,0 +1,24 @@
+body {
+    font-family: 'Heebo', sans-serif;
+    color: var(--main-site-color);
+}
+
+
+h1,
+h2,
+h3,
+h4,
+ul,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+}
+
+li {
+list-style: none;
+padding: 0;
+}

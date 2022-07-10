@@ -1,0 +1,17 @@
+:root {
+    --main-site-color: #21243D;
+
+    --link-color: #8695A4;
+
+    --main-background-color: #ffffff;
+
+    --hover-color: #FF6464;
+
+}
+
+@mixin fonts ($fs, $ff, $lh) {
+font-size: $fs;
+font-weight: $ff;
+line-height: $lh;
+
+}
